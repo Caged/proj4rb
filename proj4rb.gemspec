@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.email = %q{guilhem.vellut@gmail.com}
   s.extensions = ["ext/extconf.rb"]
   s.extra_rdoc_files = [
-    "ChangeLog",
+    "Changelog",
      "LICENSE",
      "README.rdoc",
      "TODO"
