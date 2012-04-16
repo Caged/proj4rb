@@ -1,5 +1,4 @@
 #include <ruby.h>
-#include <projects.h>
 #include <proj_api.h>
  
 static VALUE mProjrb;
