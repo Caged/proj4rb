@@ -115,7 +115,7 @@ Before building, make sure you have the <i>jeweler</i> gem installed:
 Then invoke the build:
     rake build
     
-Anf finally install:
+And finally install:
     rake install proj4rb
 
 If there is a problem, you can perform this step manually:
