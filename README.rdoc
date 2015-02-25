@@ -100,7 +100,7 @@ To install the gem simply type:
 To compile the proj4rb Ruby bindings from source you'll need the
 Proj.4 C library installed. 
 
-Check which RUby version you have installed:
+Check which Ruby version you have installed:
     ruby -v
 
 If it is Ruby 1.9.2 or lower, you must install version 1.9.3:
@@ -112,8 +112,11 @@ Then select Ruby 1.9.3 as the default:
 Before building, make sure you have the <i>jeweler</i> gem installed:
     gem install jeweler
 
-Finally, simply invoke the build:
+Then invoke the build:
     rake build
+    
+Anf finally install:
+    rake install proj4rb
 
 If there is a problem, you can perform this step manually:
 Enter the <i>ext</i> directory and create
